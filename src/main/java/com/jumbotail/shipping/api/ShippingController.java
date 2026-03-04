@@ -51,4 +51,5 @@ public class ShippingController {
         ShippingChargeResponse response = shippingChargeService.calculateFullRouteCharge(request);
         return ResponseEntity.ok(response);
     }
+    // Add any future Api endpoints if required.
 }
